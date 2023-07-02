@@ -26,12 +26,10 @@
 		<ul class="nav navbar-nav">
 			<li class="active dropdown yamm-fw">
 				<a href="index.php" data-hover="dropdown" class="dropdown-toggle">Home</a>
-				
-			</li>
-             <li> <a href="index.php" style="font-family:satisfy">On Sale</a> </li>
-             <li><a href="" style="font-family:satisfy">Category</a></li>
+             <li><a href="category.php" style="font-family:satisfy">Category</a></li>
              <li><a href="" style="font-family:satisfy">Product</a></li>
-             <li><a href="" style="font-family:satisfy">Blog</a></li>				
+			</li>
+			
 	</div>
 </div>
 
