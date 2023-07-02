@@ -1,114 +1,121 @@
-<footer id="footer" class="footer color-bg">
-	  <div class="links-social inner-top-sm">
-        <div class="container">
-            <div class="row">
-            	<div class="col-xs-12 col-sm-6 col-md-4">
-            		 <!-- ============================================================= CONTACT INFO ============================================================= -->
-<div class="contact-info">
-    <div class="footer-logo">
-        <div class="logo">
-            <a href="index.php">
-                
-<h3>Techno Store</h3>
-            </a>
-        </div><!-- /.logo -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #6351ce"
+             >
+      <!-- Left -->
     
-    </div><!-- /.footer-logo -->
 
-     <div class="module-body m-t-20">
-        <p class="about-us"> Nam libero tempore, cum soluta nobis est ses  eligendi optio cumque cum soluta nobis est ses  eligendi optio cumque.</p>
-    
-        <div class="social-icons">
-            
-        <a href="http://facebook.com/transvelo" class='active'><i class="icon fa fa-facebook"></i></a>
-        <a href="#"><i class="icon fa fa-twitter"></i></a>
-        <a href="#"><i class="icon fa fa-linkedin"></i></a>
-        <a href="#"><i class="icon fa fa-rss"></i></a>
-        <a href="#"><i class="icon fa fa-pinterest"></i></a>
+    </section>
+    <!-- Section: Social media -->
 
-        </div><!-- /.social-icons -->
-    </div><!-- /.module-body -->
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Techno Store</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
 
-</div><!-- /.contact-info -->
-<!-- ============================================================= CONTACT INFO : END ============================================================= -->            	</div><!-- /.col -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="/shopping/category.php?cid=3" class="text-white">Books</a>
+            </p>
+            <p>
+              <a href="/shopping/category.php?cid=4" class="text-white">Electronics</a>
+            </p>
+            <p>
+              <a href="/shopping/category.php?cid=5" class="text-white">Furniture</a>
+            </p>
+            <p>
+              <a href="/shopping/category.php?cid=6" class="text-white">Fashion</a>
+            </p>
+          </div>
+          <!-- Grid column -->
 
-            	<div class="col-xs-12 col-sm-6 col-md-4">
-            		 <!-- ============================================================= CONTACT TIMING============================================================= -->
-                     <div class="contact-timing">
-	<div class="module-heading">
-    <style>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
 
-	.subscribe-button {
-		display: inline-block;
-		padding: 10px 20px;
-		background-color: #4CAF50;
-		color: white;
-		text-decoration: none;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-	}
-</style>
-<div class="subscribe-section">
-		<p>Subscribe to our newsletter to receive updates:</p>
-		<form>
-			<input type="email" placeholder="Your email address" required>
-			<button class="subscribe-button" type="submit">Subscribe</button>
-		</form>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Morocco,Kénitra</p>
+            <p><i class="fas fa-envelope mr-3"></i> technostore@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +212 6 30 45 87 45</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="https://github.com/eddahbikhaoula/"
+         >Khaoula Eddahbi</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
 </div>
-</div>
-
-<!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
-            		 <!-- ============================================================= INFORMATION============================================================= -->
-<div class="contact-information">
-	<div class="module-heading">
-		<h4 class="module-title">information</h4>
-	</div><!-- /.module-heading -->
-
-	<div class="module-body outer-top-xs">
-        <ul class="toggle-footer" style="">
-            <li class="media">
-                <div class="pull-left">
-                     <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-                <div class="media-body">
-                    <p>Morocco, Kenitra</p>
-                </div>
-            </li>
-
-              <li class="media">
-                <div class="pull-left">
-                     <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-                <div class="media-body">
-                    <p>(+212)0611664122<br>(+212)0542220026</p>
-                </div>
-            </li>
-
-              <li class="media">
-                <div class="pull-left">
-                     <span class="icon fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                    </span>
-                </div>
-                <div class="media-body">
-                    <span><a href="#">info@phpgurukul.com</a></span>
-                </div>
-            </li>
-              
-            </ul>
-    </div><!-- /.module-body -->
-</div><!-- /.contact-timing -->
-<!-- ============================================================= INFORMATION : END ============================================================= -->            	</div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.links-social -->
-
-    
+<!-- End of .container -->
