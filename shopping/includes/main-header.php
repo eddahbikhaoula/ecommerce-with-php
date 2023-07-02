@@ -20,8 +20,8 @@
 <div class="logo">
 	<a href="index.php">
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-	    <i class="fa-brands fa-shopify" style="color: #abd07e;"></i>
-		<h2 style="color:#abd07e;font:bolder;font-family:roboto">Techno<span style="font-family:satisfy ;">Store</span> </h2>
+	    <i class="fa-brands fa-shopify" style="color: #333333;"></i>
+		<h2 style="color:#333333;font:bolder;font-family:roboto">Techno<span style="font-family:satisfy ;">Store</span> </h2>
 
 	</a>
 	
