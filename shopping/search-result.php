@@ -168,23 +168,6 @@ while($row=mysqli_fetch_array($sql))
 			<div class='col-md-9'>
 					<!-- ========================================== SECTION – HERO ========================================= -->
 
-	<div id="category" class="category-carousel hidden-xs">
-		<div class="item">	
-			<div class="image">
-				<img src="assets/images/banners/cat-banner-3.jpg" alt="" class="img-responsive">
-			</div>
-			<div class="container-fluid">
-				<div class="caption vertical-top text-left">
-					<div class="big-text">
-						<br />
-					</div>
-
-			
-			
-				</div><!-- /.caption -->
-			</div><!-- /.container-fluid -->
-		</div>
-</div>
 
 				<div class="search-result-container">
 					<div id="myTabContent" class="tab-content">
