@@ -9,7 +9,7 @@
         <div class="logo">
             <a href="index.php">
                 
-<h3>Shopping Portal</h3>
+<h3>Techno Store</h3>
             </a>
         </div><!-- /.logo -->
     
@@ -34,7 +34,7 @@
 
             	<div class="col-xs-12 col-sm-6 col-md-4">
             		 <!-- ============================================================= CONTACT TIMING============================================================= -->
-<div class="contact-timing">
+                     <div class="contact-timing">
 	<div class="module-heading">
 		<h4 class="module-title">opening time</h4>
 	</div><!-- /.module-heading -->
@@ -52,8 +52,6 @@
 	</div><!-- /.module-body -->
 </div><!-- /.contact-timing -->
 <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
-
-            	<div class="col-xs-12 col-sm-6 col-md-4">
             		 <!-- ============================================================= INFORMATION============================================================= -->
 <div class="contact-information">
 	<div class="module-heading">
@@ -70,7 +68,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>New Delhi, Delhi</p>
+                    <p>Morocco, Kenitra</p>
                 </div>
             </li>
 
@@ -82,7 +80,7 @@
                     </span>
                 </div>
                 <div class="media-body">
-                    <p>(011) 000000000000<br>(011) 000000000000</p>
+                    <p>(+212)0611664122<br>(+212)0542220026</p>
                 </div>
             </li>
 

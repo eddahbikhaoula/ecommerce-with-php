@@ -19,29 +19,36 @@
 					<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
 	<a href="index.php">
-		
-		<h2>Shopping Portal</h2>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	    <i class="fa-brands fa-shopify" style="color: #abd07e;"></i>
+		<h2 style="color:#abd07e;font:bolder;font-family:roboto">Techno<span style="font-family:satisfy ;">Store</span> </h2>
 
 	</a>
-</div>		
+	
+	</div>		
 </div>
-<div class="col-xs-12 col-sm-12 col-md-6 top-search-holder">
+<div class="col-xs-10 col-sm-10 col-md-6 top-search-holder">
 <div class="search-area">
     <form name="search" method="post" action="search-result.php">
         <div class="control-group">
 
-            <input class="search-field" placeholder="Search here..." name="product" required="required" />
-
-            <button class="search-button" type="submit" name="search"></button>    
+            <input class="search-field" placeholder="Search here..." name="product" required="required">
+			<button type="submit" name="save" class="btn btn-primary">Search</button>
+            <!--<button class="search-button" type="submit" name="search"></button> !-->
 
         </div>
+		
     </form>
 </div><!-- /.search-area -->
+
+
+
+
 <!-- ============================================================= SEARCH AREA : END ============================================================= -->				</div><!-- /.top-search-holder -->
 
 				<div class="col-xs-12 col-sm-12 col-md-3 animate-dropdown top-cart-row">
 					<!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
-<?php
+		<?php
 if(!empty($_SESSION['cart'])){
 	?>
 	<div class="dropdown dropdown-cart">
@@ -50,7 +57,7 @@ if(!empty($_SESSION['cart'])){
 				<div class="total-price-basket">
 					<span class="lbl">cart -</span>
 					<span class="total-price">
-						<span class="sign">Rs.</span>
+						<span class="sign">Mad.</span>
 						<span class="value"><?php echo $_SESSION['tp']; ?></span>
 					</span>
 				</div>
@@ -93,7 +100,7 @@ if(!empty($_SESSION['cart'])){
 						<div class="col-xs-7">
 							
 							<h3 class="name"><a href="product-details.php?pid=<?php echo $row['id'];?>"><?php echo $row['productName']; ?></a></h3>
-							<div class="price">Rs.<?php echo ($row['productPrice']+$row['shippingCharge']); ?>*<?php echo $_SESSION['cart'][$row['id']]['quantity']; ?></div>
+							<div class="price">Mad.<?php echo ($row['productPrice']+$row['shippingCharge']); ?>*<?php echo $_SESSION['cart'][$row['id']]['quantity']; ?></div>
 						</div>
 						
 					</div>
@@ -106,7 +113,7 @@ if(!empty($_SESSION['cart'])){
 			<div class="clearfix cart-total">
 				<div class="pull-right">
 					
-						<span class="text">Total :</span><span class='price'>Rs.<?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
+						<span class="text">Total :</span><span class='price'>Mad.<?php echo $_SESSION['tp']="$totalprice". ".00"; ?></span>
 						
 				</div>
 			
@@ -126,7 +133,7 @@ if(!empty($_SESSION['cart'])){
 				<div class="total-price-basket">
 					<span class="lbl">cart -</span>
 					<span class="total-price">
-						<span class="sign">Rs.</span>
+						<span class="sign">Mad.</span>
 						<span class="value">00.00</span>
 					</span>
 				</div>

@@ -1,4 +1,13 @@
-<div class="header-nav animate-dropdown">
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping</title>
+ </head>
+
+ <body>
+ <div class="header-nav animate-dropdown">
     <div class="container">
         <div class="yamm navbar navbar-default" role="navigation">
             <div class="navbar-header">
@@ -12,25 +21,17 @@
             <div class="nav-bg-class">
                 <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
 	<div class="nav-outer">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto font-rubik">
 		<ul class="nav navbar-nav">
 			<li class="active dropdown yamm-fw">
 				<a href="index.php" data-hover="dropdown" class="dropdown-toggle">Home</a>
 				
 			</li>
-              <?php $sql=mysqli_query($con,"select id,categoryName  from category limit 6");
-while($row=mysqli_fetch_array($sql))
-{
-    ?>
-
-			<li class="dropdown yamm">
-				<a href="category.php?cid=<?php echo $row['id'];?>"> <?php echo $row['categoryName'];?></a>
-			
-			</li>
-			<?php } ?>
-
-			
-		</ul><!-- /.navbar-nav -->
-		<div class="clearfix"></div>				
+             <li> <a href="index.php" style="font-family:satisfy">On Sale</a> </li>
+             <li><a href="" style="font-family:satisfy">Category</a></li>
+             <li><a href="" style="font-family:satisfy">Product</a></li>
+             <li><a href="" style="font-family:satisfy">Blog</a></li>				
 	</div>
 </div>
 
@@ -38,4 +39,13 @@ while($row=mysqli_fetch_array($sql))
             </div>
         </div>
     </div>
-</div>
+</div> 
+
+
+
+ </body>
+ 
+
+ </html>
+ 
+ 

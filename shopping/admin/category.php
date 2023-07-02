@@ -106,7 +106,7 @@ if(isset($_GET['del']))
 								<h3>Manage Categories</h3>
 							</div>
 							<div class="module-body table">
-								<table cellpadding="0" cellspacing="0" border="0" class="datatable-1 table table-bordered table-striped	 display" width="100%">
+								<table cellpadding="0" cellspacing="0" bordr="0" class="datatable-1 table table-bordered table-striped	 display" width="100%">
 									<thead>
 										<tr>
 											<th>#</th>

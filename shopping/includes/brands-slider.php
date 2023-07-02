@@ -4,19 +4,19 @@
 			<div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
 				<div class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/aoc.jpg" src="assets/images/blank.gif" alt="">
+						<img data-echo="brandsimage/samsung.jpg" src="assets/images/blank.gif" alt="">
 					</a>	
 				</div><!--/.item-->
 
 				<div class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/bajaj.jpg" src="assets/images/blank.gif" alt="">
+						<img data-echo="brandsimage/lenovo.jpg" src="assets/images/blank.gif" alt="">
 					</a>	
 				</div><!--/.item-->
 
 				<div class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/blackberry.jpg" src="assets/images/blank.gif" alt="">
+						<img data-echo="brandsimage/Apple.jpg" src="assets/images/blank.gif" alt="">
 					</a>	
 				</div><!--/.item-->
 
@@ -28,7 +28,7 @@
 
 				<div class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/compas.jpg" src="assets/images/blank.gif" alt="">
+						<img data-echo="brandsimage/sony.jpg" src="assets/images/blank.gif" alt="">
 					</a>	
 				</div>
 
@@ -56,11 +56,7 @@
 
 				
 
-				<div class="item">
-					<a href="#" class="image">
-						<img data-echo="brandsimage/sony.jpg" src="assets/images/blank.gif" alt="">
-					</a>	
-				</div>
+				
 
 				<div class="item">
 					<a href="#" class="image">
@@ -76,7 +72,7 @@
 
 				<div class="item">
 					<a href="#" class="image">
-						<img data-echo="brandsimage/lenovo.jpg" src="assets/images/blank.gif" alt="">
+						<img data-echo="" src="assets/images/blank.gif" alt="">
 					</a>	
 				</div>
 

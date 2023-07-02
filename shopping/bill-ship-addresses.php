@@ -192,7 +192,7 @@ while($row=mysqli_fetch_array($query))
 					<form class="register-form" role="form" method="post">
 <div class="form-group">
 					    <label class="info-title" for="Shipping Address">Shipping Address<span>*</span></label>
-					    <textarea class="form-control unicase-form-control text-input" " name="shippingaddress" required="required"><?php echo $row['shippingAddress'];?></textarea>
+					    <textarea class="form-control unicase-form-control text-input"  name="shippingaddress" required="required"><?php echo $row['shippingAddress'];?></textarea>
 					  </div>
 
 

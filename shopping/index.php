@@ -35,7 +35,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Shopping Portal Home Page</title>
+	    <title>Techno store Home Page</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -95,13 +95,17 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 <div id="hero" class="homepage-slider3">
 	<div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
 		<div class="full-width-slider">	
-			<div class="item" style="background-image: url(assets/images/sliders/slider1.png);">
+			<div>
+			<img src="https://ae01.alicdn.com/kf/S09bf10da6d8a4218933b2b974551bce1v.jpg_Q90.jpg_.webp" alt="" data-spm-anchor-id="a2g0o.home.01003.i1.650c214549P07H">
+				<!-- <img src="./assets/banner2-cr-500x150.jpg" > -->
 				<!-- /.container-fluid -->
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 	    
 	    <div class="full-width-slider">
-			<div class="item full-width-slider" style="background-image: url(assets/images/sliders/slider2.png);">
+			
+			<img src="https://ae01.alicdn.com/kf/S9c79144ca1954ecfa70c9f0380bb3168s.jpg_Q90.jpg_.webp" alt="" data-spm-anchor-id="a2g0o.home.01003.i2.650c2145sluCnB">
+			<!--<img src="./assets/Banner1.png" alt="Banner 1"> -->
 			</div><!-- /.item -->
 		</div><!-- /.full-width-slider -->
 
@@ -137,7 +141,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 							<h4 class="info-box-heading orange">free shipping</h4>
 						</div>
 					</div>
-					<h6 class="text">free ship-on oder over Rs. 600.00</h6>	
+					<h6 class="text">free ship-on oder over 10000 Dhs</h6>	
 				</div>
 			</div><!-- .col -->
 
@@ -151,7 +155,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 							<h4 class="info-box-heading red">Special Sale</h4>
 						</div>
 					</div>
-					<h6 class="text">All items-sale up to 20% off </h6>	
+					<h6 class="text">All items-sale up to 30% off </h6>	
 				</div>
 			</div><!-- .col -->
 		</div><!-- /.row -->
@@ -166,7 +170,7 @@ if(isset($_GET['action']) && $_GET['action']=="add"){
 		<!-- ============================================== SCROLL TABS ============================================== -->
 		<div id="product-tabs-slider" class="scroll-tabs inner-bottom-vs  wow fadeInUp">
 			<div class="more-info-tab clearfix">
-			   <h3 class="new-product-title pull-left">Featured Products</h3>
+			   <h3 class="new-product-title pull-left;blue">Featured Products</h3>
 				<ul class="nav nav-tabs nav-tab-line pull-right" id="new-products-1">
 					<li class="active"><a href="#all" data-toggle="tab">All</a></li>
 					<li><a href="#books" data-toggle="tab">Books</a></li>
@@ -209,8 +213,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
+					Mad.<?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">Mad.<?php echo htmlentities($row['productPriceBeforeDiscount']);?>	</span>
 									
 			</div><!-- /.product-price -->
 			
@@ -267,8 +271,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs. <?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+					Mad. <?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">Mad.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div><!-- /.product-price -->
 			
@@ -325,8 +329,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs.<?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+					Mad.<?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">Mad.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div>
 			
@@ -384,8 +388,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs. <?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+					Mad. <?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">Mad.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div>
 			
@@ -434,8 +438,8 @@ while ($row=mysqli_fetch_array($ret))
 
 			<div class="product-price">	
 				<span class="price">
-					Rs .<?php echo htmlentities($row['productPrice']);?>			</span>
-										     <span class="price-before-discount">Rs.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
+					Mad .<?php echo htmlentities($row['productPrice']);?>			</span>
+										     <span class="price-before-discount">Mad.<?php echo htmlentities($row['productPriceBeforeDiscount']);?></span>
 									
 			</div>
 			
@@ -463,7 +467,7 @@ while ($row=mysqli_fetch_array($ret))
 		
 
 	<section class="section featured-product inner-xs wow fadeInUp">
-		<h3 class="section-title">Fashion</h3>
+		<h3 class="section-title">Accesoir</h3>
 		<div class="owl-carousel best-seller custom-carousel owl-theme outer-top-xs">
 			<?php
 $ret=mysqli_query($con,"select * from products where category=6");
@@ -499,7 +503,7 @@ while ($row=mysqli_fetch_array($ret))
 											<div class="rating rateit-small"></div>
 											<div class="product-price">	
 												<span class="price">
-													Rs. <?php echo htmlentities($row['productPrice']);?>
+													Mad. <?php echo htmlentities($row['productPrice']);?>
 												</span>
 
 											</div><!-- /.product-price -->
