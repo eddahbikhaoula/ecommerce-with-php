@@ -585,6 +585,8 @@ li.dropdown.current-user .dropdown-menu li a {
 /* ---------------------------------------------------------------------- */
 .btn {
 	font-family: 'Open Sans';
+	  position: relative;
+  left: 110px;
 }
 .btn-teal {
 	background-color: #569099;

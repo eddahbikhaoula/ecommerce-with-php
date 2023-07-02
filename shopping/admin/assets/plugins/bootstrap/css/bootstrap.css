@@ -2004,6 +2004,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+
 }
 .btn:focus {
   outline: thin dotted;
@@ -2077,6 +2078,8 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #428bca;
   border-color: #357ebd;
+  position: relative;
+  left: 110px;
 }
 .btn-primary:hover,
 .btn-primary:focus,

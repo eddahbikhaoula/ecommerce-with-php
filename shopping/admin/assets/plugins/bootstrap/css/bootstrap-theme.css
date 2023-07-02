@@ -60,6 +60,8 @@
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
   border-color: #2b669a;
+  position: relative;
+  left: 110px;
 }
 .btn-primary:hover,
 .btn-primary:focus {

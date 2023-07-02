@@ -135,6 +135,8 @@ img[src="assets/images/blank.gif"] {
   border: none;
   font-size: 13px;
   line-height: 22px;
+  position: relative;
+  left: 110px;
 }
 .btn-black {
   -webkit-transition: all linear 0.2s;
