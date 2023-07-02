@@ -2,10 +2,10 @@
 /*  GENERAL
 /*===================================================================================*/
 .green-text {
-  color: #333333 !important;
+  color: #abd07e !important;
 }
 .green-text:hover {
-  background-color: #333333 !important;
+  background-color: #abd07e !important;
   color: #fff !important;
 }
 .blue-text {
@@ -609,7 +609,7 @@ a {
   background: #0b816a;
 }
 .tag.sale {
-  background: #333333;
+  background: #abd07e;
 }
 .copyright-bar .copyright a {
   color: #12cca7;
@@ -1504,7 +1504,7 @@ a {
 .sidebar .side-menu nav .nav > li > a:hover,
 .sidebar .side-menu nav .nav > li > a:focus {
   background: #fff;
-  border-left: 5px solid #333333;
+  border-left: 5px solid #abd07e;
 }
 .sidebar .side-menu nav .nav > li > a:hover .icon,
 .sidebar .side-menu nav .nav > li > a:focus .icon {
