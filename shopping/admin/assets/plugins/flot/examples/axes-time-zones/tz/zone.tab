@@ -93,7 +93,7 @@ BR	-0803-03454	America/Recife	Pernambuco
 BR	-0712-04812	America/Araguaina	Tocantins
 BR	-0940-03543	America/Maceio	Alagoas, Sergipe
 BR	-1259-03831	America/Bahia	Bahia
-BR	-2332-04637	America/Sao_Paulo	S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, RS)
+BR	-2332-04637	America/Sao_Paulo	S & SE Brazil (GO, DF, MG, ES, RJ, SP, PR, SC, MAD)
 BR	-2027-05437	America/Campo_Grande	Mato Grosso do Sul
 BR	-1535-05605	America/Cuiaba	Mato Grosso
 BR	-0226-05452	America/Santarem	W Para
@@ -329,7 +329,7 @@ PY	-2516-05740	America/Asuncion
 QA	+2517+05132	Asia/Qatar
 RE	-2052+05528	Indian/Reunion
 RO	+4426+02606	Europe/Bucharest
-RS	+4450+02030	Europe/Belgrade
+MAD	+4450+02030	Europe/Belgrade
 RU	+5443+02030	Europe/Kaliningrad	Moscow-01 - Kaliningrad
 RU	+5545+03735	Europe/Moscow	Moscow+00 - west Russia
 RU	+4844+04425	Europe/Volgograd	Moscow+00 - Caspian Sea

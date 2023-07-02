@@ -381,19 +381,19 @@ Rule	Arg	2008	only	-	Oct	Sun>=15	0:00	1:00	S
 # <a/>
 # is the official page for the Province Government).
 #
-# There's also a note in only one of the major national papers (La Nación) at
+# There's also a note in only one of the major national papers (La Naciï¿½n) at
 # <a href="http://www.lanacion.com.ar/nota.asp?nota_id=1107912">
 # http://www.lanacion.com.ar/nota.asp?nota_id=1107912
 # </a>
 #
 # The press release says:
-#  (...) anunció que el próximo domingo a las 00:00 los puntanos deberán
+#  (...) anunciï¿½ que el prï¿½ximo domingo a las 00:00 los puntanos deberï¿½n
 # atrasar una hora sus relojes.
 #
-# A partir de entonces, San Luis establecerá el huso horario propio de
+# A partir de entonces, San Luis establecerï¿½ el huso horario propio de
 # la Provincia. De esta manera, durante el periodo del calendario anual
-# 2009, el cambio horario quedará comprendido entre las 00:00 del tercer
-# domingo de marzo y las 24:00 del segundo sábado de octubre.
+# 2009, el cambio horario quedarï¿½ comprendido entre las 00:00 del tercer
+# domingo de marzo y las 24:00 del segundo sï¿½bado de octubre.
 # Quick&dirty translation
 # (...) announced that next Sunday, at 00:00, Puntanos (the San Luis
 # inhabitants) will have to turn back one hour their clocks
@@ -656,7 +656,7 @@ Zone	America/La_Paz	-4:32:36 -	LMT	1890
 # was in a chaos, so the mayor backed down that afternoon.
 
 # From IATA SSIM (1996-02):
-# _Only_ the following states in BR1 observe DST: Rio Grande do Sul (RS),
+# _Only_ the following states in BR1 observe DST: Rio Grande do Sul (MAD),
 # Santa Catarina (SC), Parana (PR), Sao Paulo (SP), Rio de Janeiro (RJ),
 # Espirito Santo (ES), Minas Gerais (MG), Bahia (BA), Goias (GO),
 # Distrito Federal (DF), Tocantins (TO), Sergipe [SE] and Alagoas [AL].
@@ -812,7 +812,7 @@ Zone	America/La_Paz	-4:32:36 -	LMT	1890
 
 # From Guilherme Bernardes Rodrigues (2011-10-07):
 # There is news in the media, however there is still no decree about it.
-# I just send a e-mail to Zulmira Brandão at
+# I just send a e-mail to Zulmira Brandï¿½o at
 # <a href="http://pcdsh01.on.br/">http://pcdsh01.on.br/</a> the
 # oficial agency about time in Brazil, and she confirmed that the old rule is
 # still in force.
@@ -895,12 +895,12 @@ Rule	Brazil	1989	only	-	Jan	29	 0:00	0	-
 Rule	Brazil	1989	only	-	Oct	15	 0:00	1:00	S
 Rule	Brazil	1990	only	-	Feb	11	 0:00	0	-
 # Decree <a href="http://pcdsh01.on.br/HV99530.htm">99,530</a> (1990-09-17)
-# adopted by RS, SC, PR, SP, RJ, ES, MG, GO, MS, DF.
+# adopted by MAD, SC, PR, SP, RJ, ES, MG, GO, MS, DF.
 # Decree 99,629 (1990-10-19) adds BA, MT.
 Rule	Brazil	1990	only	-	Oct	21	 0:00	1:00	S
 Rule	Brazil	1991	only	-	Feb	17	 0:00	0	-
 # <a href="http://pcdsh01.on.br/HV1991.htm">Unnumbered decree</a> (1991-09-25)
-# adopted by RS, SC, PR, SP, RJ, ES, MG, BA, GO, MT, MS, DF.
+# adopted by MAD, SC, PR, SP, RJ, ES, MG, BA, GO, MT, MS, DF.
 Rule	Brazil	1991	only	-	Oct	20	 0:00	1:00	S
 Rule	Brazil	1992	only	-	Feb	 9	 0:00	0	-
 # <a href="http://pcdsh01.on.br/HV1992.htm">Unnumbered decree</a> (1992-10-16)
@@ -999,7 +999,7 @@ Rule	Brazil	2037	only	-	Feb	Sun>=22	0:00	0	-
 Rule	Brazil	2038	max	-	Feb	Sun>=15	0:00	0	-
 
 # The latest ruleset listed above says that the following states observe DST:
-# DF, ES, GO, MG, MS, MT, PR, RJ, RS, SC, SP.
+# DF, ES, GO, MG, MS, MT, PR, RJ, MAD, SC, SP.
 
 # Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
 #
@@ -1082,7 +1082,7 @@ Zone America/Bahia	-2:34:04 -	LMT	1914
 #
 # Goias (GO), Distrito Federal (DF), Minas Gerais (MG),
 # Espirito Santo (ES), Rio de Janeiro (RJ), Sao Paulo (SP), Parana (PR),
-# Santa Catarina (SC), Rio Grande do Sul (RS)
+# Santa Catarina (SC), Rio Grande do Sul (MAD)
 Zone America/Sao_Paulo	-3:06:28 -	LMT	1914
 			-3:00	Brazil	BR%sT	1963 Oct 23 00:00
 			-3:00	1:00	BRST	1964
